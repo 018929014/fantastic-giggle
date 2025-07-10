@@ -1,0 +1,38 @@
+/*
+  This file can be used for truly global styles.
+  More specific styles should be in component <style> tags or specific layout/page styles.
+*/
+
+body {
+  font-family: var(--font-body, sans-serif); /* Fallback to generic sans-serif */
+  color: var(--text-color, #333);
+  background-color: var(--background-color, #f4f6f8);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Ensure consistent line height */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--primary-color, #3498db);
+  text-decoration: none;
+  transition: color 0.2s ease; /* Smooth color transition for links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; /* A bit more minimalist */
+}
+
+/* Basic container to center content, can be used on pages */
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
