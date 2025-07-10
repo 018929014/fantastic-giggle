@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.4",
+    "normalize.css": "^8.0.1"
+  }
+}
